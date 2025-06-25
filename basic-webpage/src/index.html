@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S. Mohammed Nowfal | Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px 40px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    header h1 {
+      color: #004080;
+    }
+    nav a {
+      color: #333;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 100px 40px 60px;
+    }
+    .hero {
+      background: url('StockCake-Analytics Dashboard Display_1750579064.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+    .hero h2,
+    .hero h1 {
+      color: black;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero .vanishing {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      height: 30px;
+      transition: opacity 0.5s;
+    }
+    .hero button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      border: none;
+      background-color: #004080;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .hero button:hover {
+      transform: translateY(-5px);
+    }
+    .about, .skills, .contact {
+      background-color: #ffffff;
+      border-radius: 15px;
+      margin: 40px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    .about p, .contact p {
+      margin-top: 15px;
+    }
+    .about img {
+      float: right;
+      margin-left: 20px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .resume-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+    .resume-button:hover {
+      background-color: #002c5f;
+    }
+    .skills .bar {
+      background: #ddd;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    .skills .bar span {
+      display: block;
+      height: 20px;
+      background: #004080;
+      text-align: right;
+      padding-right: 5px;
+      line-height: 20px;
+      color: white;
+      animation: fillBar 2s ease-out forwards;
+    }
+    @keyframes fillBar {
+      0% { width: 0; }
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #004080;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button[type="submit"]:hover {
+      background-color: #002c5f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e8eff5;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>S. Mohammed Nowfal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, my name is</h2>
+    <h1>S. Mohammed Nowfal</h1>
+    <div class="vanishing" id="vanishing-text"></div>
+<!-- ...existing code... -->
+<a 
+  onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=nowfal9786@gmail.com&su=Job%20Opportunity&body=Hi%20Nowfal,%20I%20would%20like%20to%20connect%20regarding%20a%20job%20opportunity.', '_blank')"
+  href="mailto:nowfal9786@gmail.com?subject=Job%20Opportunity&body=Hi%20Nowfal,%20I%20would%20like%20to%20connect%20regarding%20a%20job%20opportunity." 
+  class="resume-button"
+  style="margin-top: 20px; display: inline-block;"
+>
+  Hire me
+</a>
+<!-- ...existing code... -->  </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <img src="https://via.placeholder.com/120" alt="Profile Picture">
+    <p>
+      Hello, my name is S. Mohammed Nowfal. I have completed my BSc in Data Science and Analytics. I am passionate about leveraging data to drive impactful decisions and solve real-world problems. I am proficient in Python, SQL, Tableau, and Power BI.
+    </p>
+    <p>
+      Hailing from Pollachi, Coimbatore, I bring a diverse perspective and a strong analytical mindset. I'm actively seeking opportunities in data-driven roles to contribute and grow professionally.
+    </p>
+    <a class="resume-button" href="Nowfal_Resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="bar"><span style="width:90%">Python - 90%</span></div>
+    <div class="bar"><span style="width:80%">Tableau - 80%</span></div>
+    <div class="bar"><span style="width:80%">Power BI - 80%</span></div>
+    <div class="bar"><span style="width:70%">SQL - 70%</span></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you're interested in collaboration or have any questions, feel free to reach out.</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:nowfal9786@gmail.com">nowfal9786@gmail.com</a></li>
+      <li><strong>Phone:</strong> <a href="tel:+919786159675">9786159675</a></li>
+      <li><strong>Address:</strong> Pollachi, Coimbatore</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/s-mohammed-nowfal" target="_blank">s-mohammed-nowfal</a></li>
+    </ul>
+     <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/meokrywp"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 S. Mohammed Nowfal. All rights reserved.
+  </footer>
+
+  <script>
+    const texts = [
+      "I am a Data Analyst",
+      "I am a Power BI Developer",
+      "I am a Data Scientist"
+    ];
+    let index = 0;
+    const textElement = document.getElementById("vanishing-text");
+
+    function showNextText() {
+      textElement.style.opacity = 0;
+      setTimeout(() => {
+        textElement.textContent = texts[index];
+        textElement.style.opacity = 1;
+        index = (index + 1) % texts.length;
+      }, 500);
+    }
+    setInterval(showNextText, 2500);
+    showNextText();
+  </script>
+</body>
+</html>
